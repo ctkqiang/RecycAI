@@ -1,0 +1,56 @@
+# created by virtualenv automatically
+*.zip
+*.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# PyCharm project files
+.idea/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyTorch checkpoints and models
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test results
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.cache
+
+# pylint
+.pylint.d/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# hide this 
+bin/
+lib/
